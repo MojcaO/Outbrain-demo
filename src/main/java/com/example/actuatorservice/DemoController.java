@@ -16,9 +16,9 @@ public class DemoController {
         return new DemoType("test", 123);
     }
 
-    @GetMapping("test2ti")
+    @GetMapping("test2tim")
     public DemoType testEndpoint2ti() {
-        return new DemoType("tititi", 12234);
+        return new DemoType("tititim", 12234);
     }
 
     @PostMapping("test3")
