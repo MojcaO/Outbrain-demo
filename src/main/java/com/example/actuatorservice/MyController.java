@@ -10,7 +10,7 @@ public class MyController {
 
     @GetMapping("mojca") //localhost:8080/api/mojca
     public String testEndpoint() {
-        return "Hello this is api/mojca with changes!!!1!";
+        return "Hello this is api/mojca with changes!!!sdgfrhzjtzuhj!";
     }
 
 }
