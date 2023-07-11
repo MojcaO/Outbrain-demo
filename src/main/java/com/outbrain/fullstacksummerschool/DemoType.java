@@ -1,4 +1,4 @@
-package com.example.actuatorservice;
+package com.outbrain.fullstacksummerschool;
 
 public class DemoType {
 
