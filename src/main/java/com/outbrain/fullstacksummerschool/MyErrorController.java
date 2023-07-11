@@ -1,4 +1,4 @@
-package com.example.actuatorservice;
+package com.outbrain.fullstacksummerschool;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.boot.web.servlet.error.ErrorController;

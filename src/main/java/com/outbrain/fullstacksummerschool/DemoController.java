@@ -1,6 +1,8 @@
-package com.example.actuatorservice;
+package com.outbrain.fullstacksummerschool;
 
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("api")
@@ -47,9 +49,9 @@ public class DemoController {
     }
 
     @GetMapping("teachers") //teacher
-    public Teacher[] allTeachersEndpoint() {
+    public List<Teacher> allTeachersEndpoint() {
 
-        Teacher[] teachers = teacherRepository.findAll().toArray(new Teacher[0]);
+        List<Teacher> teachers = teacherRepository.findAll();
         return teachers;
     }
 

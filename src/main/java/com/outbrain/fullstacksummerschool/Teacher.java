@@ -1,4 +1,4 @@
-package com.example.actuatorservice;
+package com.outbrain.fullstacksummerschool;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

@@ -1,4 +1,4 @@
-package com.example.actuatorservice;
+package com.outbrain.fullstacksummerschool;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

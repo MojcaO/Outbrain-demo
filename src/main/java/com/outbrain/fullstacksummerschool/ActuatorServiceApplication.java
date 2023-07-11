@@ -1,4 +1,4 @@
-package com.example.actuatorservice;
+package com.outbrain.fullstacksummerschool;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
